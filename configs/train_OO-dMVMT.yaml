@@ -1,0 +1,24 @@
+# exp config
+experiment_name: 'train_shrec22_oo-dmvmt'
+device_index: 0
+train_batch_sz: 50
+test_batch_sz: 500
+save_metrics: True
+# train config
+normalize: True
+n_epochs: 100
+do_sdn: True
+do_gs_ge: True
+do_gs_ge_OnOff: True
+do_OnOff_skip: False
+# data config
+dataset_train_dir: "data/shrec22/training_set"
+dataset_test_dir: "data/shrec22/test_set"
+W: 16
+step: 1
+joints_number: 26
+joints_channels: 3
+num_classes: 17
+calc_m: True
+# model config
+filters_num: 8

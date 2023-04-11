@@ -1,0 +1,15 @@
+# exp config
+device_index: 0
+test_batch_sz: 500
+# train config
+normalize: True
+# data config
+dataset_test_dir: "data/shrec22/test_set"
+W: 16
+step: 1
+joints_number: 26
+joints_channels: 3
+num_classes: 17
+calc_m: False
+# model config
+filters_num: 8

@@ -1,0 +1,1 @@
+PYTHONPATH=. python train_dMVMT.py --cfg_path "configs/train_OO-dMVMT.yaml"
