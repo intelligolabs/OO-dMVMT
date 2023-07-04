@@ -1,13 +1,14 @@
-# online-gesture-recognition
+# OO-dMVMT: A Deep Multi-view Multi-task Classification Framework for Real-time 3D Hand Gesture Classification and Segmentation
+Official implementation of the paper "OO-dMVMT: A Deep Multi-view Multi-task Classification Framework for Real-time 3D Hand Gesture Classification and Segmentation" [Paper](https://openaccess.thecvf.com/content/CVPR2023W/CV4MR/html/Cunico_OO-dMVMT_A_Deep_Multi-View_Multi-Task_Classification_Framework_for_Real-Time_3D_CVPRW_2023_paper.html)
 
 
 ## Setup paths
 
-Create `data/` if not exists
+1. Create `data/` if not exists
 
-Create `output/` if not exists
+1. Create `output/` if not exists
 
-Download dataset and put in `data/shrec22` and `data/shrec19`. Or create symbolic link `ln -s </abs/path/of/data> ./` 
+1. Download dataset and put in `data/shrec22` and `data/shrec19`. Or create symbolic link `ln -s </abs/path/of/data> ./` 
 
 ## Train the model
 1. In the terminal, run the following command:
