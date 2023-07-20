@@ -45,3 +45,19 @@ All the hyperparameters used for training/testing are contained in `.yaml` files
 `eval_OO-dMVMT.yaml` contains the configuration for generating the output file for the Shrec22 challenge
 - `W` the size of the window. Must be the same used during training (DEFAULT: 16)
 - `calc_m` precomputes the JCD, used to speedup training (DEFAULT: False)
+
+
+## Pre-trained models
+Pre-trained models are available [here](https://drive.google.com/drive/folders/1aclPUDPPw1yTLabwb8ZuSHFKqQ72lTIE?usp=sharing)
+
+## Citations
+If you want cite our work, please use this
+```
+@inproceedings{cunico2023oo,
+  title={OO-dMVMT: A Deep Multi-view Multi-task Classification Framework for Real-time 3D Hand Gesture Classification and Segmentation},
+  author={Cunico, Federico and Emporio, Marco and Girella, Federico and Giachetti, Andrea and Avogaro, Andrea and Cristani, Marco},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={2744--2753},
+  year={2023}
+}
+```
